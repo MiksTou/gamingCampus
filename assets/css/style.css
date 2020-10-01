@@ -1,0 +1,134 @@
+/* text */
+
+.textAccueil{
+    color: gray;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.textCard{
+    color: white;
+    text-align: center;
+}
+
+/* NavBar */
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+li {
+    list-style: none;
+    margin: 10px;
+}
+
+li a{
+text-decoration: none;
+color: black;
+}
+
+li a:hover{
+    color: purple;
+    text-decoration: overline 4px;
+}
+
+
+
+/* Main */
+
+
+/* sectionAccueil */
+
+.bannièreAccueil{
+    width: 95rem;
+    height: 30rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}   
+
+/* .blockAccueil{
+    
+} */
+
+/* IMG */
+
+.imgAccueil{
+    position: relative;
+    left: 28rem;
+}
+
+.imgCard{
+    width: 25rem;
+} 
+
+/* Button */
+
+.buttonAccueil{
+    
+
+    width: 18rem;
+    background-color: black;
+    border: 2px solid white;
+    color: white; 
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    left: 38rem;
+}
+
+.buttonAccueil .color{
+    color: white;
+    text-align: center;
+}
+
+.BouttonEnSavoirPlus{
+    width: 10rem;
+    background-color: black;
+    border: 2px solid white;
+    color: white; 
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+/* Card */
+
+.fontNoirLogo{
+    width: 95rem;
+    height: 30rem;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.divGBS{
+    width: 31.66rem;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divGA{
+    width: 31.66rem;
+    background-color:green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divGURU{
+    width: 31.66rem;
+    background-color:blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
