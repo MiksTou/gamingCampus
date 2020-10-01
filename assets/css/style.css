@@ -1,5 +1,9 @@
 /* text */
 
+a{
+    text-decoration: none;
+}
+
 .textAccueil{
     color: gray;
     text-align: center;
@@ -18,33 +22,72 @@
 }
 
 .textNewsH3{
-    font-size: 1.7rem;
+    font-size: 1.3rem;
+    width: 15rem;
 }
 
 .textNewsP{
     font-size: 1.3rem;
-    width: 15rem;
+    width: 22rem;
 }
+
+.textLienNews{
+    color: purple;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+.textNewCampusH2{
+    font-size: 3rem;
+}
+
+.textNewCampusP{
+    font-size: 1.3rem;
+    position: relative;
+    bottom: 2rem;
+}
+
+.textPartOffi{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 1rem;
+}
+.textCookies{
+    text-align: center;
+    position: relative;
+    top: 1rem;
+    color: white;
+}
+
+.surligneCookies{
+    text-decoration: underline;
+}
+
 /* NavBar */
 
 ul{
+    list-style: none;
+}
+
+.ulNavBar{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 
-li {
-    list-style: none;
+.ulNavBar li {
+    
     margin: 10px;
 }
 
-li a{
+.ulNavBar li a{
 text-decoration: none;
 color: black;
 }
 
-li a:hover{
+.ulNavBar li a:hover{
     color: purple;
     text-decoration: overline 4px;
 }
@@ -79,6 +122,7 @@ li a:hover{
 .imgCard{
     width: 20rem;
 } 
+
 
 /* Button */
 
@@ -175,7 +219,7 @@ li a:hover{
 .grosseDivGrisse{
     width: 95rem;
     
-    background-color: rgba(128, 128, 128, 0.438);
+    background-color: #fafafa;
     
 } 
 
@@ -184,31 +228,150 @@ li a:hover{
 .buttonNewsroom{
     position: relative;
     left: 65em;
-    bottom: 5rem;
+    bottom: 8rem;
+    width: 18rem;
+    background-color: #fafafa;
+    border: 2px solid black;
+    color: black; 
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .textButtonNewsroom{
-    color: red;
+    text-align: center;
 }
 
 .cardNews{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
     width: 95rem;
-    height: 45rem;
+   
+    position: relative;
+    bottom: 5rem;
 }
 
 .card{
     width: 20rem;
-   
-   
+    
+    padding-left: 50px;
     position: relative;
     
-
+}
 
 .divTextNews{
     
     position: relative;
 }
+
+.divLireLaSuite
+{
+    position: relative;
+    top: 3rem;
+}
+
+.textHaut{
+    position: relative;
+    left: 14rem;
+}
+
+/* FOOTER */
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.footerInfosPratiques li{
+    margin-bottom: 1rem;
+
+}
+
+.FooterParents{
+    width: 20rem;
+    padding: 0 6rem;
+}
+
+.FooterParents li {
+    margin-bottom: 1.2rem;
+}
+
+
+.coordonnées{
+    position: relative;
+    top: 0.5rem
+
+}
+
+.nousSuivre{
+    position: relative;
+    top: 2rem
+}
+
+.logoRéseaux{
+    position: relative;
+    top: 2.5rem;
+   
+}
+
+.droit{
+    position: relative;
+    top: 4rem;
+}
+
+.parlentDeNous{
+    display: flex;
+    flex-direction: row;
+}
+
+.parlentDeNous .ulParle{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 2rem;
+}
+
+.parlentDeNous .ulParle li{
+    margin-left: 4rem;
+}
+
+.partenairesOfficiels{
+    position: relative;
+    top: 2rem;
+}
+
+.fondNoirPartOFF{
+    background-color: black;
+    width: 95rem;
+    height: 10rem;
+}
+
+.fondNoirPartOFF ul{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fondNoirPartOFF ul li{
+    margin-left: 2rem;
+}
+
+.fondBlanc{
+    background-color: red;
+    width: 100rem;
+}
+
+.cookies{
+    background-color: red;
+    width: 20rem;
+}
+
+.fondGris{
+    background-color: gray;
+    height: 3rem;
+    position: relative;
+    top: 4rem;
+}   
